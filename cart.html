@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="icon" href="assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/cart_main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+        <header>
+        <div class="logo">
+            <a href="index.html"><img src="assets/images/logo-png.png" alt=""></a>
+        </div>
+        <div class="nav-container">   
+            <div class="search-box">
+                <input type="text" placeholder="Tìm kiếm...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="product.html">Sản phẩm</a></li>
+                    <li><a href="login.html">Đăng nhập</a></li>
+                    <li><a href="register.html">Đăng kí</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+<main>
+        <section class="product-list">
+            <div class="top-list">
+                <ul>
+                    <li>Đơn giá</li>
+                    <li>Số lượng</li>
+                    <li>Số tiền</li>
+                    <li>Thao tác</li>
+                </ul>
+            </div>
+
+            <div class="main-list" id="cart-items-list">
+                </div>
+        </section>
+
+        <section class="payment">
+            
+                <div class="right-list">
+                    <p>Tổng cộng</p>
+                    <p>(<span id="total-items-count">0</span> Sản phẩm):</p>
+                    <p id="total-price-value">0 đồng</p>
+                    <h1 class="buy-button">Mua Hàng</h1>
+                </div>
+            
+        </section>
+    </main>
+
+        <footer >
+        <div >
+            <div >
+                <h1 >Kết nối với chúng tôi</h1>
+                <div >
+                    <a href="https://www.facebook.com/" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="footer__social-link" href="https://www.instagram.com" role="button"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="footer__social-link" href="https://www.youtube.com/" role="button"><i
+                            class="fab fa-youtube"></i></a>
+                    <a class="footer__social-link" href="https://www.twitter.com/" role="button"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="footer__social-link" href="webtrangchu.html" role="button"><i class="fa fa-home"></i></a>
+                </div>
+            </div>
+
+            <div >
+                <h1>Thông Tin Liên Hệ</h1>
+                <a><i class="fas fa-home "> </i> ABC, Ninh Kiều, Cần Thơ</a>
+                <a><i class="fas fa-envelope "></i> @gmail.com</a>
+                <a><i class="fas fa-phone "></i> 0123 456 789</a>
+            </div>
+
+            <div class="footer__services">
+                <h1>Hỗ Trợ Khách Hàng</h1>
+                <a href="" class="footer__services-item">Chính sách bảo mật</a>
+                <a href="" class="footer__services-item">Hướng dẫn đặt hàng</a>
+                <a href="" class="footer__services-item">Chính sách Thanh toán và bảo hành</a>
+                <a href="" class="footer__services-item">Các câu hỏi thường gặp</a>
+            </div>
+
+            <div >
+                <h1 >Cửa Hàng Gần Nhất</h1>
+                <a href="" class="footer__location-item"><i class="fa-solid fa-location-dot"></i>Cần Thơ</a>
+                <a href="" class="footer__location-item"><i class="fa-solid fa-location-dot"></i>Hậu Giang</a>
+                <a href="" class="footer__location-item"><i class="fa-solid fa-location-dot"></i>Bến Tre</a>
+            </div>
+        </div>
+        
+        <div >
+            Copyright © 2025 Công Ty Dịch Vụ 5 thành viên. Designed by Nhóm 3
+        </div>
+        </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
